@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-sharlaan",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Shareable ESLint config",
   "main": "index.js",
   "repository": "https://github.com/sharlaan/eslint-config-sharlaan",
