@@ -1,10 +1,11 @@
 {
-  "name": "eslint-config-vizeat",
+  "name": "eslint-config-sharlaan",
   "version": "2.1.0",
-  "description": "Shareable ESLint config desgined by the VizEat Team",
+  "description": "Shareable ESLint config",
   "main": "index.js",
-  "repository": "https://github.com/vizeat/eslint-config-vizeat",
+  "repository": "https://github.com/sharlaan/eslint-config-sharlaan",
   "author": "Jérémie Parker <github@jeremie-parker.com>",
+  "maintainer": "Raphaël Morineau <raphael.morineau@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
     "babel-eslint": "^8.0.1",
@@ -21,7 +22,7 @@
   "devDependencies": {
     "babel-eslint": "^8.0.1",
     "eslint": "^4.4.1",
-    "eslint-config-vizeat": "^2.0.0",
+    "eslint-config-sharlaan": "^2.0.0",
     "eslint-plugin-import": "^2.7.0",
     "eslint-plugin-node": "^5.1.1",
     "eslint-plugin-promise": "^3.5.0",
