@@ -1,31 +1,23 @@
 {
   "name": "eslint-config-sharlaan",
-  "version": "2.2.3",
+  "version": "2.2.4",
   "description": "Shareable ESLint config",
-  "main": "index.js",
   "repository": "https://github.com/sharlaan/eslint-config-sharlaan",
   "author": "Jérémie Parker <github@jeremie-parker.com>",
   "maintainer": "Raphaël Morineau <raphael.morineau@gmail.com>",
   "license": "MIT",
-  "peerDependencies": {
-    "babel-eslint": "^8.2.2",
-    "eslint": "^4.18.2",
-    "prettier": "^1.11.1",
-    "prettier-eslint-cli": "^4.7.1"
-  },
   "dependencies": {
-    "eslint-config-standard": "^11.0.0",
-    "eslint-config-standard-jsx": "^5.0.0",
-    "eslint-plugin-react": "^7.7.0",
-    "eslint-plugin-standard": "^3.0.1"
-  },
-  "devDependencies": {
-    "babel-eslint": "^8.2.2",
-    "eslint": "^4.18.2",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-node": "^6.0.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "prettier-eslint-cli": "^4.7.1"
+    "babel-eslint": "latest",
+    "eslint": "latest",
+    "eslint-config-standard": "latest",
+    "eslint-config-standard-jsx": "latest",
+    "eslint-plugin-import": "latest",
+    "eslint-plugin-node": "latest",
+    "eslint-plugin-promise": "latest",
+    "eslint-plugin-react": "latest",
+    "eslint-plugin-standard": "latest",
+    "prettier": "latest",
+    "prettier-eslint-cli": "latest"
   },
   "scripts": {
     "lint": "eslint ./",

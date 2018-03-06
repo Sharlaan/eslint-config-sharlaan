@@ -12,12 +12,12 @@ it extends `sharlaan` config and add JSX / React specific rules
 
 ## Usage
 
-We use `eslint` and a config based on `eslint-config-standard` to lint our code and `eslint-prettier` to format it.
+You can use `eslint` and a config based on `eslint-config-standard` to lint your code and `eslint-prettier` to format it.
 
 Here is how you can set it up to easily get up and running:
 
 ```sh
-yarn add --dev eslint-config-sharlaan eslint-plugin-import eslint-plugin-node eslint-plugin-promise babel-eslint eslint
+yarn add -D eslint-config-sharlaan
 ```
 
 Then, extend `sharlaan` or `sharlaan/react` in your `.eslintrc` depending on the kind of projects you're working on.
@@ -33,15 +33,7 @@ or
 { "extends": ["sharlaan/react"] }
 ```
 
-## Going further
-
-We also use `prettier-eslint-cli`
-
-```
-yarn add --dev prettier-eslint-cli
-```
-
-And setup helper script in our `package.json`:
+... and finally add these scripts in your `package.json`:
 
 ```
 "scripts": {
@@ -50,4 +42,4 @@ And setup helper script in our `package.json`:
 }
 ```
 
-Happy hacking !
+Happy linting and formatting !
