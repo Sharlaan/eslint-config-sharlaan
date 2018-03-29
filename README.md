@@ -2,13 +2,17 @@
 
 [Shared ESLint config](http://eslint.org/docs/developer-guide/shareable-configs) for JavaScript code.
 
-### `sharlaan` config
+## `sharlaan` config
 
 it contains generic rules for all JS projects (back & front)
 
-### `sharlaan/react` config
+## `sharlaan/react` config
 
 it extends `sharlaan` config and add JSX / React specific rules
+
+## `sharlaan/vue` config
+
+it extends `sharlaan` config and add JSX / Vue specific rules
 
 ## Usage
 
@@ -20,22 +24,19 @@ Here is how you can set it up to easily get up and running:
 yarn add -D eslint-config-sharlaan
 ```
 
-Then, extend `sharlaan` or `sharlaan/react` in your `.eslintrc` depending on the kind of projects you're working on.
-`sharlaan/react` extends `sharlaan` config so for mixed projects (React + SSR) `sharlaan/react` is enough.
+Then, extend `sharlaan` or `sharlaan/react` or `sharlaan/vue` in your `.eslintrc` depending on the kind of projects you're working on.
 
 ```json
 { "extends": ["sharlaan"] }
+# or
+{ "extends": ["sharlaan/react"] }
+# or
+{ "extends": ["sharlaan/vue"] }
 ```
 
-or
+... and optionally you can add these scripts in your `package.json`:
 
 ```json
-{ "extends": ["sharlaan/react"] }
-```
-
-... and finally add these scripts in your `package.json`:
-
-```
 "scripts": {
   "lint": "eslint ./",
   "fmt": "prettier-eslint \"{./*@(.js|.jsx),./!(node_modules|build|dist)/**/*@(.js|.jsx)}\" --write"
